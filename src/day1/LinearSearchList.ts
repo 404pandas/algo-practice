@@ -6,6 +6,7 @@ export default function linear_search(
         if (haystack[index] === needle) {
             return true;
         }
+        // TODO- Dustin: Why can't I do if/else here?
     }
     return false;
 }
